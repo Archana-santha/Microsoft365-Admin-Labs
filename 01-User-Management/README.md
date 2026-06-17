@@ -22,6 +22,7 @@ For each user, reviewed and edited:
 ## Screenshots
 
 **1. User Created Confirmation**
+
 ![Add user](add-user.png)
 
 **2. User Properties Page**

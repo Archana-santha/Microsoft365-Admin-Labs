@@ -23,13 +23,7 @@ Completed the domain wizard and confirmed the domain status as "Active" and read
 **Screenshot 2 - Domain Setup Complete:**
 ![Domain complete](screenshots/05-setup-complete.png)
 
-### 4. Reviewed DNS Records Configuration
-Accessed the domain's DNS records page to understand how Microsoft 365 manages mail routing, SPF, DKIM, and DMARC records automatically for onmicrosoft.com domains.
-
-**Screenshot 3 - DNS Records Page:**
-![DNS records](screenshots/06-dns-records.png)
-
-### 5. Created Users with Custom Domain
+### 4. Created Users with Custom Domain
 Created three test users in the organization and assigned them email addresses using the new domain:
 - Archana S → ArchanaS@Archana365Lab.onmicrosoft.com
 - David Smith → david.smith@Archana365Lab.onmicrosoft.com
@@ -37,10 +31,7 @@ Created three test users in the organization and assigned them email addresses u
 
 All users were assigned Microsoft 365 E3 licenses to enable email and other services.
 
-**Screenshot 4 - Active Users with Domain:**
-![Active users](screenshots/07-active-users.png)
-
-### 6. Tested Email Functionality
+### 5. Tested Email Functionality
 Accessed Outlook Web (outlook.office.com), signed in as one user, and sent a test email to another user on the domain. Verified the email was successfully delivered and received.
 
 **Screenshot 5 - Email Sent:**

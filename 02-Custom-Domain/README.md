@@ -80,9 +80,3 @@ Successfully completed a hands-on Microsoft 365 domain configuration lab coverin
 **Key Takeaway:** Domains are the organizational structure that enable email and services in Microsoft 365
 
 ---
-
-## Additional Resources
-
-- LAB-NOTES.md - Detailed technical notes and concepts
-- DNS-RECORDS-REFERENCE.md - Complete DNS records guide for custom domains
-- GITHUB-STRUCTURE-GUIDE.md - Repository organization details

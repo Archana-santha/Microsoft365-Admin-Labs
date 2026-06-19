@@ -15,13 +15,13 @@ Navigated to the admin center and located domain management settings under Setti
 Used the "Add domain" wizard to add `Archana365Lab.onmicrosoft.com` to the organization. Since this is an onmicrosoft.com domain, Microsoft handles verification and DNS configuration automatically.
 
 **Screenshot 1 - Add Domain Wizard:**
-![Add domain](screenshots/03-add-domain-wizard.png)
+![Add domain](domain-name-entry.png)
 
 ### 3. Verified Domain Setup
 Completed the domain wizard and confirmed the domain status as "Active" and ready for use. No manual DNS configuration was required for the onmicrosoft.com domain.
 
 **Screenshot 2 - Domain Setup Complete:**
-![Domain complete](screenshots/05-setup-complete.png)
+![Domain complete](screenshots/domainsetup-completed.png)
 
 ### 4. Created Users with Custom Domain
 Created three test users in the organization and assigned them email addresses using the new domain:
@@ -35,10 +35,10 @@ All users were assigned Microsoft 365 E3 licenses to enable email and other serv
 Accessed Outlook Web (outlook.office.com), signed in as one user, and sent a test email to another user on the domain. Verified the email was successfully delivered and received.
 
 **Screenshot 5 - Email Sent:**
-![Email sent](screenshots/08-email-sent.png)
+![Email sent](screenshots/sampleemail-sent.png)
 
 **Screenshot 6 - Email Received:**
-![Email received](screenshots/09-email-received.png)
+![Email received](screenshots/sampleemail-received.png)
 
 ---
 

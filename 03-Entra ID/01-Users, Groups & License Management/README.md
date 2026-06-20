@@ -74,7 +74,7 @@ Verified that license assignment successfully created mailboxes and enabled emai
 **After License:** Successful mailbox creation and Outlook access
 
 **Successful Email Configuration**
-![Email access](outlook-access.png)
+![Email access](outlook-accesss.png)
 
 ### 8. Performed User Management Tasks
 Completed common help desk tasks including password resets, account blocking/unblocking, and activity monitoring.

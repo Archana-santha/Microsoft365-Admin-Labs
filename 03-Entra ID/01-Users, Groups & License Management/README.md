@@ -12,29 +12,32 @@ Navigated to the Entra ID admin center at entra.microsoft.com and authenticated 
 Used the user creation wizard (Users → New user) to create four test user accounts in the cloud-based directory. Each user received a unique User Principal Name (UPN) and temporary password.
 
 **Users Created:**
-- Archana Singh → archana.singh@Archana365Lab.onmicrosoft.com
+- Parul Singh → parul.singh@Archana365Lab.onmicrosoft.com
 - David Smith → david.smith@Archana365Lab.onmicrosoft.com
 - Emma Wilson → emmawilson@Archana365Lab.onmicrosoft.com
 - Richard Smith → richard.smith@Archana365Lab.onmicrosoft.com
 
 **User Account Creation**
-![Create user](screenshots/02-create-user-dialog.png)
+![Create user](newuser-created.png)
 
 ### 3. Configured User Properties
 Edited user profiles to add organizational information including job titles, departments, office locations, and manager relationships. This creates a complete organizational structure and enables automated workflows.
 
 **User Properties Configuration**
-![User properties](screenshots/04-user-properties.png)
+![User properties](user-properties.png)
 
 ### 4. Created Security Groups
 Used the group creation wizard (Groups → New group) to create security groups for organizing users by function and enabling access control.
 
 **Security Groups Created:**
 - IT-Support-Team (for help desk and IT staff)
-- Sales-Team (for sales department)
+- Sales-Group (for sales department)
 
 **Group Creation**
-![Create group](screenshots/05-create-group-dialog.png)
+![Create group](security-group-created.png)
+
+**All Groups**
+![All group](all-groups.png)
 
 ### 5. Added Members to Groups and Assigned Owners
 Populated security groups with user members and designated group owners for management. Owners can add/remove members while regular members access group resources.
@@ -45,24 +48,24 @@ IT-Support-Team:
 - Owner: Emma Wilson
 - Members: Emma Wilson, Parul Singh
 
-Sales-Team:
+Sales-Group:
+- Owner: David Smith
 - Members: David Smith, Richard Smith
 
 **Group Members View**
-![Group members](screenshots/06-group-members.png)
+![Group members](group-members-list.png)
 
 ### 6. Assigned Microsoft 365 Licenses
 Assigned Microsoft 365 licenses (E1 and E3) to all created users. License assignment automatically triggers mailbox creation and enables access to email, Teams, OneDrive, and other cloud services.
 
 **License Assignment:**
-- Archana Singh → Microsoft 365 E3
-- David Smith → Microsoft 365 E1
+- David Smith → Microsoft 365 E3
 - Emma Wilson → Microsoft 365 E3
-- Richard Smith → Microsoft 365 E1
+- Richard Smith → Microsoft 365 E3
 - Parul Singh → Microsoft 365 E3
 
 **After License Assignment - Email IDs Appear**
-![Users with licenses](screenshots/08-users-with-licenses.png)
+![Users with licenses](licence-assignment.png)
 
 ### 7. Tested Email Access
 Verified that license assignment successfully created mailboxes and enabled email functionality. Attempted to access Outlook Web (outlook.office.com) with newly created user credentials to confirm end-to-end access.
@@ -71,19 +74,19 @@ Verified that license assignment successfully created mailboxes and enabled emai
 **After License:** Successful mailbox creation and Outlook access
 
 **Successful Email Configuration**
-![Email access](screenshots/10-outlook-access.png)
+![Email access](outlook-access.png)
 
 ### 8. Performed User Management Tasks
 Completed common help desk tasks including password resets, account blocking/unblocking, and activity monitoring.
 
 **Password Reset**
-![Reset password](screenshots/09-reset-password.png)
+![Reset password](password-reset.png)
 
 **Blocked User Status**
-![Blocked user](screenshots/11-blocked-user.png)
+![Blocked user](blocked-signin.png)
 
 **Sign-in Activity Logs**
-![Sign-in logs](screenshots/12-sign-in-logs.png)
+![Sign-in logs](sign-in-logs.png)
 
 ## Key Learnings
 
@@ -91,7 +94,7 @@ Completed common help desk tasks including password resets, account blocking/unb
 
 - **User Principal Name (UPN):** The UPN (firstname.lastname@domain.onmicrosoft.com) is the unique identifier used for sign-in and must be unique within the organization.
 
-- **License-Mailbox Relationship:** License assignment automatically triggers mailbox creation within 5-24 hours. Without a license, a user account exists but has no email access.
+- **License-Mailbox Relationship:** License assignment automatically triggers mailbox creation. Without a license, a user account exists but has no email access.
 
 - **Security Groups vs. Members:** Security groups organize users for access control. Group owners manage membership while members access shared resources.
 
@@ -105,7 +108,7 @@ Completed common help desk tasks including password resets, account blocking/unb
 
 ## Real-World Application
 
-In a help desk or IT support role, you would manage scenarios like:
+In a help desk or IT support role, would manage scenarios like:
 
 - **Employee Onboarding:** Create user account, assign to appropriate groups, assign license, provision mailbox and services
 - **License Management:** Assign E1/E3/E5 based on role, monitor license usage, reclaim licenses from inactive users
@@ -115,20 +118,6 @@ In a help desk or IT support role, you would manage scenarios like:
 - **Password Reset:** Handle user-requested password resets, create temporary passwords, enforce security policies
 
 Understanding user and group management is essential for Microsoft 365 support roles.
-
-## Screenshots Summary
-
-| Step | Action | Screenshot |
-|---|---|---|
-| Create Users | Added users to Entra ID | 02-create-user-dialog.png |
-| Configure Users | Set job title, department, manager | 04-user-properties.png |
-| Create Groups | Created security groups | 05-create-group-dialog.png |
-| Add Members | Populated groups with users | 06-group-members.png |
-| Assign Licenses | Assigned E1/E3 licenses to users | 08-users-with-licenses.png |
-| Test Email | Verified Outlook access works | 10-outlook-access.png |
-| Reset Password | Reset user password | 09-reset-password.png |
-| Block User | Disabled user sign-in | 11-blocked-user.png |
-| Monitor Activity | Reviewed sign-in logs | 12-sign-in-logs.png |
 
 ## Lab Completion Summary
 

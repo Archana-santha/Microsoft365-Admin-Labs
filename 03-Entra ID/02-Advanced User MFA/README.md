@@ -12,7 +12,7 @@ Navigated to the Entra ID admin center at entra.microsoft.com and authenticated 
 Used the password reset functionality to reset a user's password and enforced a password change on the user's next sign-in. This demonstrates the first step in account troubleshooting and security management.
 
 **Password Reset Process:**
-- Located user account (Neena Mehta)
+- Located user account (Richard Smith)
 - Clicked "Reset password"
 - Checked "User must change password at next sign-in"
 - Generated temporary password

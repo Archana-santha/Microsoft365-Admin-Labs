@@ -33,7 +33,7 @@ Assigned the Help Desk Administrator role to Emma Wilson, enabling her to reset 
 - Cannot manage groups
 
 **Help Desk Admin Assignment**
-![Help Desk assignment](helpdesk-admin-assigned.png)
+![Help Desk assignment](Helpdesk-admin-assigned.png)
 
 ### 4. Assigned License Administrator Role
 Assigned the License Administrator role to David Smith, limiting his permissions to only license management tasks.

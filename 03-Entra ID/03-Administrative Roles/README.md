@@ -73,7 +73,7 @@ Downloaded a CSV file containing all role assignments to document the current de
 - User Administrator: Neena Mehta
 
 **Downloaded Assignments Report**
-![CSV report](screenshots/06-csv-download.png)
+![CSV report](role-assignment-report.png)
 
 ### 7. Verified Role Assignments for Each User
 Confirmed that each user profile accurately reflected their assigned administrative role by checking the "Assigned roles" section for each user.
@@ -83,9 +83,6 @@ Confirmed that each user profile accurately reflected their assigned administrat
 - David Smith: License Administrator ✓
 - Neena Mehta: User Administrator ✓
 - Archana S: Global Administrator (yourself) ✓
-
-**User Assignment Verification**
-![User verification](role-assignment-report.png)
 
 ### 8. Documented Principle of Least Privilege
 Understood and documented how delegating specific roles improves security by giving each person only the permissions they need to do their job.

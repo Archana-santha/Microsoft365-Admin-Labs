@@ -42,7 +42,7 @@ Set the access control to require Multi-Factor Authentication for the policy. Th
 - Session Controls: None (could add re-authentication frequency)
 
 **Access Control Setup**
-![MFA requirement](mfa-requirement-set.png)
+![MFA requirement](MFA-requirement-set.png)
 
 ### 5. Enabled Policy in Report-only Mode
 Set the policy to "Report-only" mode initially. This safe testing approach monitors policy activity without blocking users, allowing verification that the policy works correctly before full enforcement.

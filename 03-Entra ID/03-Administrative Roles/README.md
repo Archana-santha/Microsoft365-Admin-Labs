@@ -8,9 +8,6 @@ Practiced implementing role-based access control (RBAC) in Microsoft Entra ID us
 ### 1. Accessed Roles and Administrators
 Navigated to the Entra ID admin center and located the Roles and administrators section to review available administrative roles and current assignments.
 
-**Roles and Administrators Page**
-![Roles overview](screenshots/01-roles-administrators.png)
-
 ### 2. Understood Admin Role Hierarchy
 Reviewed the different administrative roles available and their capability levels to understand role-based access control concepts.
 
@@ -22,9 +19,6 @@ Reviewed the different administrative roles available and their capability level
 - Exchange Administrator (email management)
 - Teams Administrator (Teams management)
 - Security Administrator (security policies)
-
-**Understanding Role Levels**
-![Role hierarchy](screenshots/02-role-hierarchy.png)
 
 ### 3. Assigned Help Desk Administrator Role
 Assigned the Help Desk Administrator role to Emma Wilson, enabling her to reset user passwords and unlock accounts without granting full admin access.
@@ -39,7 +33,7 @@ Assigned the Help Desk Administrator role to Emma Wilson, enabling her to reset 
 - Cannot manage groups
 
 **Help Desk Admin Assignment**
-![Help Desk assignment](screenshots/03-helpdesk-admin.png)
+![Help Desk assignment](helpdesk-admin-assigned.png)
 
 ### 4. Assigned License Administrator Role
 Assigned the License Administrator role to David Smith, limiting his permissions to only license management tasks.
@@ -53,7 +47,7 @@ Assigned the License Administrator role to David Smith, limiting his permissions
 - Cannot manage groups
 
 **License Admin Assignment**
-![License assignment](screenshots/04-license-admin.png)
+![License assignment](license-admin-assigned.png)
 
 ### 5. Assigned User Administrator Role
 Assigned the User Administrator role to Neena Mehta, enabling her to create, edit, and delete user accounts.
@@ -67,7 +61,7 @@ Assigned the User Administrator role to Neena Mehta, enabling her to create, edi
 - Cannot change organization settings
 
 **User Admin Assignment**
-![User Admin assignment](screenshots/05-user-admin.png)
+![User Admin assignment](user-admin-assigned.png)
 
 ### 6. Downloaded Role Assignments Report
 Downloaded a CSV file containing all role assignments to document the current delegation structure. The report showed four role assignments across the organization.
@@ -91,7 +85,7 @@ Confirmed that each user profile accurately reflected their assigned administrat
 - Archana S: Global Administrator (yourself) ✓
 
 **User Assignment Verification**
-![User verification](screenshots/07-user-roles.png)
+![User verification](role-assignment-report.png)
 
 ### 8. Documented Principle of Least Privilege
 Understood and documented how delegating specific roles improves security by giving each person only the permissions they need to do their job.
@@ -129,43 +123,9 @@ Understood and documented how delegating specific roles improves security by giv
 
 - **Scalability:** As organizations grow, delegated admin allows tasks to be distributed without security compromises.
 
-## Real-World Application
-
-In a help desk or IT support role, you would manage scenarios like:
-
-- **Support Team Password Resets:** Instead of making help desk Global Admin, assign Help Desk Admin role so they can only reset passwords, improving security.
-
-- **HR User Creation:** Instead of giving HR Global Admin access, assign User Admin role so they can create/delete employees without accessing sensitive settings.
-
-- **Finance License Management:** Instead of full admin access, assign License Admin role so Finance can manage licensing costs without changing other systems.
-
-- **Reducing Security Risk:** By delegating specific roles instead of sharing one Global Admin account, you prevent multiple people from having full access.
-
-- **Clear Accountability:** With delegated roles, you know exactly who has which permissions and can audit their actions.
-
-- **Onboarding New Staff:** New IT team members can be given appropriate roles without waiting for Global Admin permissions.
-
-- **Compliance Requirements:** Role-based delegation helps meet compliance requirements by enforcing principle of least privilege.
-
-Understanding administrative roles and delegated administration is essential for IT support professionals managing cloud identity systems.
-
-## Screenshots Summary
-
-| Step | Action | Screenshot |
-|---|---|---|
-| Review Roles | Accessed roles and administrators page | 01-roles-administrators.png |
-| Understand Hierarchy | Reviewed role types and capabilities | 02-role-hierarchy.png |
-| Assign Help Desk | Added Help Desk Admin to Emma Wilson | 03-helpdesk-admin.png |
-| Assign License | Added License Admin to David Smith | 04-license-admin.png |
-| Assign User Admin | Added User Admin to Neena Mehta | 05-user-admin.png |
-| Download Report | Downloaded role assignments CSV | 06-csv-download.png |
-| Verify Users | Confirmed roles in user profiles | 07-user-roles.png |
-| Document Best Practices | Explained principle of least privilege | 08-least-privilege.png |
-
 ## Lab Completion Summary
 
 Successfully completed an advanced Microsoft Entra ID administrative roles and delegation lab. Demonstrated understanding of role-based access control, how to assign administrative roles appropriately, and the principle of least privilege. This lab covers critical security and delegation concepts required for IT support professionals managing cloud environments.
 
-**Difficulty Level:** Intermediate  
 **Time Required:** 60 minutes  
 **Key Takeaway:** Delegating specific admin roles improves security significantly compared to sharing Global Admin access

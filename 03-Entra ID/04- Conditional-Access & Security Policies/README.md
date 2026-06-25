@@ -9,7 +9,7 @@ Practiced implementing advanced security policies in Microsoft Entra ID using Co
 Navigated to the Microsoft Entra ID admin center and located the Conditional Access section under Security to begin creating policies that enforce organizational security requirements.
 
 **Conditional Access Overview**
-![Policy overview](screenshots/01-policy-overview.png)
+![Policy overview](conditional-access-page.png)
 
 ### 2. Understood Conditional Access Concepts
 Reviewed the fundamentals of Conditional Access: dynamic policies that evaluate conditions (who, what, where, risk level) and enforce controls (require MFA, block access, require compliance) automatically based on real-time signals.
@@ -24,14 +24,14 @@ Created the first conditional access policy to enforce Multi-Factor Authenticati
 
 **Policy 1 Configuration:**
 - Name: "Require MFA for global Admins"
-- Target Users: Global Administrators (yourself)
+- Target Users: Global Administrators 
 - Target Resources: All cloud apps (Outlook, Teams, SharePoint, etc.)
 - Condition: None (always applies)
 - Control: Require multifactor authentication
 - Status: Report-only (safe testing mode)
 
 **Policy Creation**
-![Policy 1 created](screenshots/02-policy-created.png)
+![Policy 1 created](admin-selected.png)
 
 ### 4. Configured Access Control
 Set the access control to require Multi-Factor Authentication for the policy. This means users matching the policy conditions must verify their identity using a second authentication method (phone, app, security key).
@@ -42,7 +42,7 @@ Set the access control to require Multi-Factor Authentication for the policy. Th
 - Session Controls: None (could add re-authentication frequency)
 
 **Access Control Setup**
-![MFA requirement](screenshots/03-mfa-requirement.png)
+![MFA requirement](mfa-requirement-set.png)
 
 ### 5. Enabled Policy in Report-only Mode
 Set the policy to "Report-only" mode initially. This safe testing approach monitors policy activity without blocking users, allowing verification that the policy works correctly before full enforcement.
@@ -53,9 +53,6 @@ Set the policy to "Report-only" mode initially. This safe testing approach monit
 - Policy evaluated on every sign-in
 - Safe testing approach
 - Can review impact before enabling
-
-**Policy Enabled Report-only**
-![Report-only mode](screenshots/04-report-only.png)
 
 ### 6. Monitored Policy Activity and Sign-in Tracking
 Reviewed the policy dashboard showing sign-in activity over the last 7 days. The chart demonstrates that the policy is actively monitoring sign-in attempts and capturing security events.
@@ -68,7 +65,7 @@ Reviewed the policy dashboard showing sign-in activity over the last 7 days. The
 - No users blocked (report-only mode)
 
 **Sign-in Activity Chart**
-![Activity tracking](screenshots/05-activity-chart.png)
+![Activity tracking](sign-in-activity.png)
 
 ### 7. Reviewed Policy Configuration Details
 Examined the complete policy settings to verify correct configuration of users, resources, conditions, and access controls. The policy dashboard shows:
@@ -79,7 +76,7 @@ Examined the complete policy settings to verify correct configuration of users, 
 - Policy status and mode
 
 **Policy Details Review**
-![Policy details](screenshots/06-policy-details.png)
+![Policy details](policy-created.png)
 
 ### 8. Understood Real-World Applications
 Documented how conditional access policies protect organizations by automatically enforcing security requirements based on risk signals. Real-world scenarios include:
@@ -88,15 +85,6 @@ Documented how conditional access policies protect organizations by automaticall
 - Enforcing device compliance
 - Restricting access from specific locations
 - Requiring approval for risky activities
-
-**Real-world Scenarios:**
-- Admin accounts always require MFA
-- High-risk sign-ins automatically blocked
-- External access requires additional verification
-- Sensitive data access restricted to compliant devices
-
-**Real-world Applications**
-![Scenarios](screenshots/07-scenarios.png)
 
 ## Key Learnings
 
@@ -120,44 +108,8 @@ Documented how conditional access policies protect organizations by automaticall
 
 - **Security vs. Usability:** Policies must balance security (preventing attacks) with usability (not blocking legitimate users). Report-only testing helps find this balance.
 
-## Real-World Application
-
-In an enterprise IT or security role, you would manage scenarios like:
-
-- **Admin Account Protection:** Ensure all Global Admin accounts require MFA always, protecting the most privileged accounts from compromise.
-
-- **Risk Detection:** Set up policies to automatically block or challenge high-risk sign-ins (unusual location, impossible travel, new device, leaked password).
-
-- **Sensitive Application Protection:** Require MFA and device compliance for access to sensitive applications (SharePoint with confidential data, Financial systems).
-
-- **External Access Control:** Require MFA and device compliance for users signing in from outside the corporate network.
-
-- **Phishing Prevention:** Detect suspicious sign-in patterns and require additional verification when phishing is suspected.
-
-- **Compliance Requirements:** Implement policies to meet compliance standards (healthcare, financial, government) for data access control.
-
-- **Incident Response:** Quickly enable policies during security incidents to block suspicious activity or require additional verification.
-
-- **Gradual Policy Deployment:** Use report-only mode to test policies, monitor impact, then gradually enable for user groups before full rollout.
-
-Understanding Conditional Access is essential for modern security roles managing cloud identity and access control.
-
-## Screenshots Summary
-
-| Step | Action | Screenshot |
-|---|---|---|
-| Access Conditional Access | Navigated to CA section | 01-policy-overview.png |
-| Create Policy | Created MFA for admins policy | 02-policy-created.png |
-| Set MFA Control | Configured require MFA | 03-mfa-requirement.png |
-| Enable Report-only | Set to safe testing mode | 04-report-only.png |
-| Monitor Activity | Viewed sign-in tracking chart | 05-activity-chart.png |
-| Review Details | Examined policy configuration | 06-policy-details.png |
-| Document Scenarios | Noted real-world applications | 07-scenarios.png |
-
 ## Lab Completion Summary
 
 Successfully completed an advanced Microsoft Entra ID Conditional Access lab demonstrating implementation of dynamic security policies. Created and configured a Conditional Access policy requiring MFA for Global Administrators, enabled safe report-only monitoring, and verified policy activity tracking. This lab covers critical security concepts for protecting privileged accounts and implementing zero-trust security principles.
 
-**Difficulty Level:** Advanced  
-**Time Required:** 45-70 minutes  
 **Key Takeaway:** Conditional Access enables dynamic, risk-aware security policies that automatically enforce security controls based on real-time signals rather than static rules

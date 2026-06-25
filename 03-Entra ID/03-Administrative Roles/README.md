@@ -95,9 +95,6 @@ Understood and documented how delegating specific roles improves security by giv
 - Reduces accidental misconfigurations
 - Scales safely as organization grows
 
-**Best Practices Documentation**
-![Best practices](screenshots/08-least-privilege.png)
-
 ## Key Learnings
 
 - **Role-Based Access Control (RBAC):** Different users receive different permission levels based on job responsibilities. Not everyone needs Global Admin access.

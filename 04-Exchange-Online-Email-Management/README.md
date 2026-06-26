@@ -9,7 +9,7 @@ Practiced email management and collaboration features in Microsoft Exchange Onli
 Navigated to the Exchange Admin Center to manage mailboxes, groups, and email settings. This is the central hub for all email administration and configuration tasks in Microsoft 365.
 
 **Exchange Admin Overview**
-![Admin center](screenshots/01-exchange-admin.png)
+![Admin center](exchange-center.png)
 
 ### 2. Reviewed Existing Mailboxes
 Examined the different types of mailboxes in the organization to understand the mailbox hierarchy and user email structure. Reviewed user mailboxes for Archana Singh, David Smith, Emma Wilson, and other team members.
@@ -21,7 +21,7 @@ Examined the different types of mailboxes in the organization to understand the 
 - Example: david.smith@company.com
 
 **Mailbox Types Overview**
-![Mailbox types](screenshots/02-mailbox-types.png)
+![Mailbox types](user-mailbox-details.png)
 
 ### 3. Created Shared Mailbox for Team Collaboration
 Created an IT Support Team shared mailbox that multiple team members can access and manage together. Shared mailboxes are essential for department-wide email addresses and team collaboration on email queues.
@@ -34,7 +34,10 @@ Created an IT Support Team shared mailbox that multiple team members can access 
 - Purpose: Team inbox for support requests
 
 **Shared Mailbox Created**
-![Shared mailbox creation](screenshots/03-shared-mailbox.png)
+![Shared mailbox creation](shared-mailbox-created.png)
+
+**Shared Mailbox present in outlook**
+![Shared mailbox present](shared-mailbox-present.png)
 
 ### 4. Added Members to Shared Mailbox
 Configured permissions for team members to access the shared mailbox. Members added include Emma Wilson and Parul Singh, who now have full read/write access to the support team inbox.
@@ -46,7 +49,7 @@ Configured permissions for team members to access the shared mailbox. Members ad
 - Result: Both can send and receive from itsupport@ address
 
 **Members Added to Shared Mailbox**
-![Members configured](screenshots/04-shared-mailbox-members.png)
+![Members configured](members-added.png)
 
 ### 5. Created Distribution Group
 Created a Sales Team distribution group to facilitate email communication to multiple recipients through a single email address. Distribution groups are used for company announcements, team communications, and targeted messaging.
@@ -59,7 +62,7 @@ Created a Sales Team distribution group to facilitate email communication to mul
 - Members: Can be added dynamically
 
 **Distribution Group Created**
-![Distribution group](screenshots/05-distribution-group.png)
+![Distribution group](group-created.png)
 
 ### 6. Configured Email Forwarding
 Set up email forwarding for David Smith's mailbox to automatically forward copies of his emails to the support team mailbox. This ensures team coverage when individuals are busy or away from their desk.
@@ -71,7 +74,7 @@ Set up email forwarding for David Smith's mailbox to automatically forward copie
 - Use case: Team coverage, vacation backup, cross-training
 
 **Email Forwarding Configuration**
-![Email forwarding](screenshots/06-email-forwarding.png)
+![Email forwarding](email-forwarding.png)
 
 ### 7. Understood Real-World Email Scenarios
 Documented common scenarios where email management features are used in actual business environments. These real-world applications demonstrate the practical value of Exchange Online administration.
@@ -80,11 +83,6 @@ Documented common scenarios where email management features are used in actual b
 - Support team shared inbox for customer requests
 - Distribution group for company announcements
 - Email forwarding for team coverage
-- Delegation for assistant access
-- Resource mailboxes for room/equipment booking
-
-**Real-World Applications**
-![Scenarios](screenshots/07-real-world-scenarios.png)
 
 ## Key Learnings
 
@@ -124,22 +122,7 @@ In a help desk or IT administration role, you would manage scenarios like:
 
 Understanding Exchange Online is essential for help desk professionals as email management is a daily responsibility.
 
-## Screenshots Summary
-
-| Step | Action | Screenshot |
-|---|---|---|
-| Access Admin | Opened Exchange Admin Center | 01-exchange-admin.png |
-| Review Mailboxes | Examined existing user mailboxes | 02-mailbox-types.png |
-| Create Shared | Created IT Support Team mailbox | 03-shared-mailbox.png |
-| Add Members | Added Emma and Parul to shared mailbox | 04-shared-mailbox-members.png |
-| Create Group | Created Sales Team distribution group | 05-distribution-group.png |
-| Configure Forward | Set up email forwarding for David | 06-email-forwarding.png |
-| Real-World Apps | Documented practical scenarios | 07-real-world-scenarios.png |
-
 ## Lab Completion Summary
 
 Successfully completed an advanced Microsoft 365 Exchange Online lab covering email management, shared mailboxes, distribution groups, and email forwarding. Demonstrated understanding of how organizations use Exchange Online for team collaboration, email routing, and communication infrastructure. This lab covers critical skills for help desk professionals as email administration represents a significant portion of daily support responsibilities.
-
-**Difficulty Level:** Intermediate  
-**Time Required:** 70 minutes  
-**Key Takeaway:** Exchange Online shared mailboxes and distribution groups enable team collaboration and communication at scale, with email forwarding providing flexibility for coverage and delegation
+flexibility for coverage and delegation

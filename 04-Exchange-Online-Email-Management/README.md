@@ -36,9 +36,6 @@ Created an IT Support Team shared mailbox that multiple team members can access 
 **Shared Mailbox Created**
 ![Shared mailbox creation](shared-mailbox-created.png)
 
-**Shared Mailbox present in outlook**
-![Shared mailbox present](shared-mailbox-present.png)
-
 ### 4. Added Members to Shared Mailbox
 Configured permissions for team members to access the shared mailbox. Members added include Emma Wilson and Parul Singh, who now have full read/write access to the support team inbox.
 
@@ -50,6 +47,9 @@ Configured permissions for team members to access the shared mailbox. Members ad
 
 **Members Added to Shared Mailbox**
 ![Members configured](members-added.png)
+
+**Shared Mailbox present in outlook**
+![Shared mailbox present](shared-mailbox-present.png)
 
 ### 5. Created Distribution Group
 Created a Sales Team distribution group to facilitate email communication to multiple recipients through a single email address. Distribution groups are used for company announcements, team communications, and targeted messaging.

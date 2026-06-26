@@ -69,7 +69,7 @@ Set up email forwarding for David Smith's mailbox to automatically forward copie
 
 **Email Forwarding Setup:**
 - Source: david.smith@Archana365Lab.onmicrosoft.com
-- Forward to: itsupport@Archana365Lab.onmicrosoft.com
+- Forward to: salesteam@Archana365Lab.onmicrosoft.com
 - Delivery: Emails go to both David's inbox AND support mailbox
 - Use case: Team coverage, vacation backup, cross-training
 

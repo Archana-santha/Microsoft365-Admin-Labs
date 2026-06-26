@@ -56,7 +56,7 @@ Created a Sales Team distribution group to facilitate email communication to mul
 
 **Distribution Group Details:**
 - Name: Sales Team
-- Email: sales@Archana365Lab.onmicrosoft.com
+- Email: salesteam@Archana365Lab.onmicrosoft.com
 - Type: Distribution list
 - Purpose: Email group for team communications
 - Members: Can be added dynamically

@@ -8,9 +8,6 @@ Practiced guest user management and B2B collaboration in Microsoft 365 using a f
 ### 1. Accessed Guest Users Management
 Navigated to Microsoft 365 Admin Center to understand guest user administration. Reviewed the guest user management interface and existing guest configurations. This shows where IT professionals manage external user access.
 
-**Guest Users Interface**
-![Guest users list](screenshots/01-guest-users-list.png)
-
 ### 2. Reviewed Guest Access Settings
 Checked organizational settings for guest collaboration policies. Verified settings that control who can invite guests and what permissions guests receive. Understanding these settings is critical for security and compliance.
 
